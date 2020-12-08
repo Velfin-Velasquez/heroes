@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
 
 export const LoginScreem = () => {
-    return (
-        <div>
-            <h1>LoginScreem</h1>
-        </div>
-    )
-}
+  return (
+    <div className="container mt-5">
+      <h1>LoginScreem</h1>
+      <hr />
+      <button className="btn btn-primary">
+          login
+      </button>
+    </div>
+  );
+};
