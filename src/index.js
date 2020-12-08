@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import { HeroesApp } from "./HeroesApp";
 
-
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<HeroesApp />, document.getElementById("root"));
